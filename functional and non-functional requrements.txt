@@ -1,0 +1,17 @@
+Functional Requirements:
+	It specifies what system should do.
+
+1) Employee registration by Admin
+2) Employee Login and verification
+3) Add/Update Corporate customers Accounting information(for authorised employee only)
+4) Record operations done by Employee if necessary.
+5) Employee Logout
+
+
+Non-functional Requirements:
+	It specifies how system should behave. All the requrements which are not functional comes under this.
+
+1) Data should be securely fetched from database.
+2) After requesting, information should be available within 3 seconds to employee.
+3) As it is hosted on Cloud platform, it should use nearest platform engine for reduction of cost.
+4) Admin should be notified if any unauthorised operations are done on website.

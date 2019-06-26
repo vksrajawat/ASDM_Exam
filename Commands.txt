@@ -1,0 +1,21 @@
+Pushing The sevice on github
+
+	git init
+	git add service.js
+	git commit -m "1"
+	git remote add origin https://github.com/
+	git push -u origin master
+
+
+Cloning The repository
+	git clone https://github.com/
+	
+
+After making changes repush the service
+	git add service.js
+	git commit -m "2"
+	git push -u origin master
+	
+
+To run the service
+	node service
