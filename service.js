@@ -20,8 +20,8 @@ var employeeInfo=function(req,resp)
 	resp.send(dataOfEmployees)
 };
 
-app.get('/employeeInfo',employeeInfo );
-var server = app.listen(4000, function () {
+app.get('/employee',employeeInfo );
+var server = app.listen(5500, function () {
 var host = server.address().address
 var port = server.address().port
 console.log("WebApp app listening at http://localhost:5500", host, port)
